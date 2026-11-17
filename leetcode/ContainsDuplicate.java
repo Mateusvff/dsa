@@ -14,10 +14,9 @@ class ContainsDuplicate {
         Set<Integer> seen = new HashSet<>();
         
         for (int x : nums) {
-            if (seen.contains(x)) {
+            if (seen.contains(x)) 
                 return true;
-            }
-
+                
             seen.add(x);
         }
         
