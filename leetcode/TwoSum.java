@@ -10,7 +10,7 @@
  * @author Mateus Franco.
 */
 
-class Solution {
+class TwoSum {
     public int[] twoSum(int[] arr, int target) {
 
         Map <Integer, Integer> pairs = new HashMap<>();
